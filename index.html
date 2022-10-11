@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <b><h1 class="text-center">CALCULATE YOUR BMI</h1></b>
+      <div class="row-one">
+        <div class="range-wrap">
+          <div class="range-value" id="rangeV"></div>
+          <input id="range" type="range" min="0" max="100" value="50" step="1">
+          <label for="weight">WEIGHT: </label>
+          <input size="1" type="text" name="weight" id="weight" class="text-input" value="">&nbsp;&nbsp;&nbsp;kg
+        </div>
+      </div>
+      <div class="row-two">
+        <div class="range-wrap">
+          <div class="range-value-H" id="rangeVH"></div>
+          <input onclick="setValueH()" id="rangeH" type="range" min="100" max="250" value="160" step="1">
+          <label for="height">HEIGHT: </label>
+          <input size="1" type="text" name="height" id="height"  class="text-input">&nbsp;&nbsp;&nbsp;cm
+        </div>
+      </div>
+      <button class="calculate" id="submit">CALCULATE</button>
+      <h3><b>BMI: </b><b class="result"></b></h3>
+      <p class="text result-statement"></p>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
