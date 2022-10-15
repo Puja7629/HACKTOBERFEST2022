@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+  
+    }
+    canvas{
+        background-color: black;
+    }
+    .score{
+        position: fixed;
+        color: white;
+        margin-left: 10px;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+   .over{
+  
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .go{
+    border: 2px solid grey;
+    text-align: center;
+    width: 300px;
+    border-radius: 4%;
+    background-color: white;
+   }
+   .zero{
+
+    font-weight: 300px;
+    font-size: 39px;
+   }
+   .p{
+    font-size:smaller;
+    font-weight: lighter;
+   }
+   .btn{
+  
+    color: white;
+    background-color: rgb(0, 170, 295);
+    width:260px;
+    height: 30px;
+   margin-bottom: 20px;
+   border: 1px solid grey  ;
+   border-radius: 10%;
+   }
+</style>
+<body>
+    <div class="score"><span>Score:</span><span> 0</span></div>
+    <div class="over">
+        <div class="go">
+            <div class="zero">0</div>
+            <p class="p">Points</p>
+            <div>
+                <button class="btn">Start Game</button>
+            </div>
+        </div>
+    </div>
+    <canvas></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
