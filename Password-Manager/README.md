@@ -1,5 +1,7 @@
-# Password Manager
+# Student Attendance QR Using Python
+
 
 ## Description
-A simple GUI Password manager made using tkinter that generates a random password and add it to a JSON file.
-It even lets you saerch for the pre-saved passwords.
+- A Python project which marks students attendance using QR Code.
+- Used various Libraries : OpenCV,Pybazar,PIL,time and cv2.
+- Add students name by updating the "1.csv" file.
