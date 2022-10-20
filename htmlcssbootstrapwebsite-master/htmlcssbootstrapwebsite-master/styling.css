@@ -1,0 +1,81 @@
+body{
+    font-family: arvo,serif;
+    background: url(https://www.teahub.io/photos/full/277-2778480_high-definition-nature-wallpapers-star.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.logo{
+    height: 30px;
+}
+.navbar-inverse{
+  background: rgba(0, 0, 0, 0.5);
+  
+}
+.nav li{
+    color:white;
+    font-size: 19px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid rgb(7, 223, 7);
+    color: red;
+}
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2.5px;
+
+}
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    
+}
+.icons p{
+    font-size: 15px;
+}
+.container{
+    max-width: 1000px;
+}
+.contact{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 100px;
+}
+.btn{
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+}
+.footer{
+    background-color: rgba(0,0 ,0,0.5);
+    color: gray;
+    font-size: 15px;
+    padding: 10px 0;
+}
+@media (max-width:78px){
+    .body image{
+        height: 70px;
+    }
+}
+
+
