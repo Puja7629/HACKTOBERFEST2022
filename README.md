@@ -1,9 +1,9 @@
-# HACKTOBERFEST2022
-### Hi This repository is created for anyone who is willing to take part in the Hacktoberfest 2022 organized by GitHub. 
-I welcome all of you to contribute in this repository in any technology/stack that interest you, I will review it by following all the GitHub rules, 
-I would merge in my repo to get it accepted by hactoberfest team.
+# HACKTOBERFEST 2022
+### Hello, This repository has been set up for anyone interested in participating in the GitHub-organized Hacktoberfest 2022.
+I invite everyone to contribute to this repository using whatever technology or stack you find interesting by creating a capasatone project. I will then review it in accordance with the GitHub guidelines.
 
-NOTE: Please send your PR in a seperate folder by renaming it as your [Project_Name] by adding a README inside the project folder.
+For the hactoberfest team to accept it, I would integrate it into my repository.
 
-HAPPY CODING, FOLKS :)
+NOTE: When submitting your PR, please provide it in a separate folder with the name of your project (i.e., [Project Name]), and include a README file inside the project folder.
 
+HAPPY CODING, PEOPLE:)
