@@ -4,6 +4,6 @@ I invite everyone to contribute to this repository using whatever technology or 
 
 For the hactoberfest team to accept it, I would integrate it into my repository.
 
-NOTE: When submitting your PR, please provide it in a separate folder with the name of your project (i.e., [Project Name]), and include a README file inside the project folder.
+#### [NOTE]: When submitting your PR, please provide it in a separate folder with the name of your project (i.e., [Project Name]), and include a README file inside the project folder.
 
 HAPPY CODING, PEOPLE:)
